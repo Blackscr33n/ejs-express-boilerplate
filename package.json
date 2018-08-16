@@ -1,0 +1,36 @@
+{
+  "name": "ejs-express-boilerplate",
+  "version": "1.0.0",
+  "description": "simple boilerplate for ejs-express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "backpack",
+    "build": "backpack build",
+    "start": "node ./build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blackscr33n/ejs-express-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "ejs",
+    "node",
+    "express",
+    "dynamic"
+  ],
+  "author": "Bernhard Miehl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blackscr33n/ejs-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Blackscr33n/ejs-express-boilerplate#readme",
+  "dependencies": {
+    "backpack-core": "^0.7.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.3"
+  }
+}
